@@ -162,5 +162,7 @@ class ViewController: UIViewController {
         let hueValue = (angle - minAngle) * (360 / maxAngle - minAngle)
         return CGFloat(hueValue / 360)
     }
+
+
 }
 
